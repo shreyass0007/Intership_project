@@ -1,0 +1,14 @@
+# Week 1 Project - Developer Profile Generator
+# Requirements
+
+# This project uses only Python built-in libraries
+# No external dependencies are required
+
+# Python Version Requirement
+# Python >= 3.6
+
+# Built-in modules used:
+# - input() - Built-in function for user input
+# - int() - Built-in function for type conversion
+# - print() - Built-in function for output
+# - f-strings - Python 3.6+ feature for string formatting
