@@ -8,71 +8,66 @@ This week focuses on exploring and cleaning sales data, performing basic analysi
 
 ## Contents 🔍
 
-- `analysis.ipynb` — main notebook containing data loading, cleaning, analysis, and visualizations
-- `data/sales_data.csv` — raw input dataset used for analysis
-- `output/cleaned_sales_data.csv` — cleaned dataset exported by the notebook
+-   `analysis.ipynb` — main notebook containing data loading, cleaning, analysis, and visualizations
+-   `data/sales_data.csv` — raw input dataset used for analysis
+-   `output/cleaned_sales_data.csv` — cleaned dataset exported by the notebook
 
 ---
 
 ## Objectives 🎯
 
-- Inspect the sales dataset and identify quality issues
-- Clean and preprocess the data (missing values, types, anomalies)
-- Perform exploratory analysis and create visualizations
-- Export a cleaned CSV for future analysis or modeling
+-   Inspect the sales dataset and identify quality issues
+-   Clean and preprocess the data (missing values, types, anomalies)
+-   Perform exploratory analysis and create visualizations
+-   Export a cleaned CSV for future analysis or modeling
 
 ---
 
 ## How to run 🔧
 
-1. Create and activate a Python virtual environment (Windows example):
+1.  Create and activate a Python virtual environment (Windows example):
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\activate
+python -m venv .venv..venvScriptsactivate
 ```
 
-2. Install required packages (either with a project `requirements.txt` or manually):
+2.  Install required packages (either with a project `requirements.txt` or manually):
 
 ```powershell
-pip install pandas numpy matplotlib seaborn jupyter scikit-learn
-# Or if you add a requirements file:
-# pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn jupyter scikit-learn# Or if you add a requirements file:# pip install -r requirements.txt
 ```
 
-3. Start Jupyter and open the notebook:
+3.  Start Jupyter and open the notebook:
 
 ```powershell
-jupyter notebook
-# or
-jupyter lab
+jupyter notebook# orjupyter lab
 ```
 
-4. Run the notebook cells sequentially. The cleaned CSV will be written to `output/cleaned_sales_data.csv`.
+4.  Run the notebook cells sequentially. The cleaned CSV will be written to `output/cleaned_sales_data.csv`.
 
 ---
 
 ## Notebook structure (high level) 🧭
 
-1. Data loading and initial inspection
-2. Data cleaning and preprocessing
-3. Exploratory data analysis (summary statistics and visualizations)
-4. Exporting cleaned data
-5. Notes and next steps
+1.  Data loading and initial inspection
+2.  Data cleaning and preprocessing
+3.  Exploratory data analysis (summary statistics and visualizations)
+4.  Exporting cleaned data
+5.  Notes and next steps
 
 ---
 
 ## Reproducibility & Notes 💡
 
-- For consistent results, set random seeds where relevant (notebook includes notes if applicable).
-- If large transformations are added, consider splitting heavy computation into scripts to avoid re-running all cells during development.
+-   For consistent results, set random seeds where relevant (notebook includes notes if applicable).
+-   If large transformations are added, consider splitting heavy computation into scripts to avoid re-running all cells during development.
 
 ---
 
 ## Results & Outputs ✅
 
-- A cleaned dataset: `output/cleaned_sales_data.csv`
-- Visualizations and analysis written inline in `analysis.ipynb` (including charts and summarized findings)
+-   A cleaned dataset: `output/cleaned_sales_data.csv`
+-   Visualizations and analysis written inline in `analysis.ipynb` (including charts and summarized findings)
 
 ---
 
